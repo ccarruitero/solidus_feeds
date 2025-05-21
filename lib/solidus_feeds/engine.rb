@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-require 'spree/core'
-require 'solidus_feeds'
+require 'solidus_core'
+require 'solidus_support'
 
 module SolidusFeeds
   class Engine < Rails::Engine
