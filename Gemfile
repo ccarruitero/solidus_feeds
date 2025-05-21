@@ -15,8 +15,8 @@ else
   gem 'solidus_frontend', github: 'solidusio/solidus', branch: branch
 end
 
-rails_version = ENV.fetch('RAILS_VERSION', '7.0')
-gem 'rails', "~> #{rails_version}"
+rails_version = ENV.fetch('RAILS_VERSION', '7.1')
+gem 'rails', "#{rails_version}"
 
 case ENV.fetch('DB', nil)
 when 'mysql'
